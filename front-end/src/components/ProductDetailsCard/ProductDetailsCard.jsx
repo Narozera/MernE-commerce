@@ -7,7 +7,7 @@ import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 const ProductDetailsCard = ({ open, setOpen, data }) => {
   const [count, setCount] = useState(1);
   const [click, setClick] = useState(false);
-  const [select, setSelect] = useState(false);
+  // const [select, setSelect] = useState(false);
 
   const handleDecrementCount = () => {
     if (count > 1) {
